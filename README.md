@@ -1,2 +1,2 @@
 # netsnmpProjects
-This is my net-snmp example ,by using net-snmp libarary . (ref: www.net-snmp.org)
+There are my examples ,by using net-snmp library. (ref: www.net-snmp.org) (ref: www.net-snmp.org)
