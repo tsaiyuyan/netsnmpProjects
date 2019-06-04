@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(gdb) Remote Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "miDebuggerServerAddress": "172.16.28.118:9999",
+            "program": "${workspaceFolder}/arm-build/snmp-subagent/snmp-subagent.out",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "sourceFileMap": {
+                "/arm-build": "/arm-build"
+            },
+            "logging": {
+                "engineLogging": false
+            },
+            "MIMode": "gdb",
+            "miDebuggerPath": "/home/yuyan/Desktop/gdb-7.9-build/bin/arm-remote-gdb"
+        }
+    ]
+}
