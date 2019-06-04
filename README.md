@@ -31,8 +31,8 @@ $mkdir arm-build
 $cd arm-build
 $cmake -DCMAKE_TOOLCHAIN_FILE=../toolchain.cmake ..
 $make
-# or
-# build normal app
+
+# or build normal app
 $mkdir build
 $cd build
 $cmake ..
