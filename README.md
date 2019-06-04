@@ -27,11 +27,13 @@ build arm or normal application:
 
 ```sh
 # build arm app
+$mkdir arm-build
 $cd arm-build
 $cmake -DCMAKE_TOOLCHAIN_FILE=../toolchain.cmake ..
 $make
 # or
 # build normal app
+$mkdir build
 $cd build
 $cmake ..
 $make
