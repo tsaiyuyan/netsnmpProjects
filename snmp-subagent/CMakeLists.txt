@@ -32,4 +32,4 @@ link_directories(/usr/local/net-snmp/lib)
 # build 
 message(STATUS "Source Files: ${DIR_SRC}")
 add_executable(${PROJECT_NAME}.out ${DIR_SRC})
-target_link_libraries(${PROJECT_NAME}.out -lnetsnmpmibs -lnetsnmpagent -lnetsnmp -lnetsnmpmibs -lnetsnmpagent -lnetsnmp -ldl -lm)
+target_link_libraries(${PROJECT_NAME}.out -lnetsnmpmibs -lnetsnmpagent -lnetsnmp -lnetsnmpmibs -ldl -lm)
